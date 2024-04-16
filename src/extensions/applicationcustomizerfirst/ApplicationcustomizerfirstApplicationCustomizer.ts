@@ -27,7 +27,7 @@ export default class ApplicationcustomizerfirstApplicationCustomizer
 
     let message: string = this.properties.testMessage;
     if (!message) {
-      message = '(No properties were provided.)';
+      message = '(This is my first cicd pipeline configuration)';
     }
 
     Dialog.alert(`Hello from ${strings.Title}:\n\n${message}`).catch(() => {
