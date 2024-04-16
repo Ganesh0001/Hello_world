@@ -1,0 +1,17 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.15.2",
+    "libraryName": "githelloworldsolution",
+    "libraryId": "9b563ffd-ec34-4386-8dca-524c2a2f2c5a",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "githelloworldsolution",
+    "solutionShortDescription": "githelloworldsolution description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "extension",
+    "extensionType": "ApplicationCustomizer"
+  }
+}

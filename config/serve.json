@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://infoqo.sharepoint.com/sites/POSTPAMDEV/_layouts/15/workbench.aspx",
+      "customActions": {
+        "52207e5d-14e3-4f73-8f1b-0a84e60be05d": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    },
+    "applicationcustomizerfirst": {
+      "pageUrl": "https://infoqo.sharepoint.com/sites/POSTPAMDEV/_layouts/15/workbench.aspx",
+      "customActions": {
+        "52207e5d-14e3-4f73-8f1b-0a84e60be05d": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    }
+  }
+}
